@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+}
+
+section {
+    padding: 20px;
+}
+
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.admin-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.hidden {
+    display: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#about, #discord {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.admin-section {
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.admin {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.admin-icon {
+    width: 80px;  /* vagy a kívánt méret */
+    height: auto;
+    border-radius: 50%; /* kör alakú ikonok */
+    transition: transform 0.3s;
+}
+
+.admin-icon:hover {
+    transform: scale(1.1); /* nagyobb lesz hover esetén */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.admin-section {
+    background-image: url('https://wallpapers.com/images/hd/fivem-23klzazlag7x2i6y.jpg'); /* Itt add meg a háttérképed URL-jét */
+    background-size: cover; /* A kép teljesen kitölti a szakaszt */
+    background-position: center; /* A kép középre van igazítva */
+    padding: 330px;
+    text-align: center;
+    color: white;
+}
+
+.admin {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.admin-icon {
+    width: 80px;  /* vagy a kívánt méret */
+    height: auto;
+    border-radius: 50%; /* kör alakú ikonok */
+    transition: transform 0.3s;
+}
+
+.admin-icon:hover {
+    transform: scale(1.1); /* nagyobb lesz hover esetén */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#tiktok {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.rules-section {
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.reaction {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.reaction-icon {
+    width: 30px; /* Változtasd a méretet igény szerint */
+    height: auto;
+    margin-right: 10px;
+}
+
+#reaction-text {
+    font-size: 16px;
+}
+.rules-section {
+    background-size: cover; /* A kép teljesen kitölti a szakaszt */
+    background-position: center; /* A kép középre van igazítva */
+    padding: 330px;
+    text-align: center;
+    color: white;
+}
+.terms-section {
+    background-size: cover; /* A kép teljesen kitölti a szakaszt */
+    background-position: center; /* A kép középre van igazítva */
+    padding: 330px;
+    text-align: center;
+    color: white;
+}
+
+.terms-section ul {
+    list-style-type: none; /* Középen igazítva, listajelölők eltüntetve */
+    padding: 0;
+}
+
+.terms-section li {
+    margin: 10px 0; /* Közötti távolság */
+}
+.updates-section {
+    background-size: cover; /* A kép teljesen kitölti a szakaszt */
+    background-position: center; /* A kép középre van igazítva */
+    padding: 330px;
+    text-align: center;
+    color: white;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin: 0 20px; /* Közötti távolság a gombok között */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Zöld háttér */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #45a049; /* Sötétebb zöld hover esetén */
+}
+
+.button-container p {
+    margin-top: 10px; /* Közötti távolság a gomb és a szöveg között */
+}
+.updates-section {
+    background-size: cover;
+    background-position: center;
+    padding: 330px;
+    text-align: center;
+    color: white;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin: 0 20px; /* Közötti távolság a gombok között */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Zöld háttér */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer; /* Kéz ikon, ha rámutatunk */
+}
+
+.cta-button:hover {
+    background-color: #45a049; /* Sötétebb zöld hover esetén */
+}
+
+.hidden-content {
+    display: none; /* Alapértelmezés szerint rejtve van */
+    margin-top: 10px; /* Közötti távolság a gomb és a tartalom között */
+    text-align: left; /* Balra igazítva a tartalom */
+    color: white;
+}
+
+.hidden-content iframe {
+    width: 100%; /* Mobilbarát */
+    max-width: 560px; /* Max szélesség */
+    height: auto; /* Magasság arányos */
+}

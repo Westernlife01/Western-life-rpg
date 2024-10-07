@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frissítések</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">RP Szerver</div>
+        <nav>
+            <a href="index.html">Főoldal</a>
+            <a href="admins.html">Adminok</a>
+            <a href="rules.html">Szabályok</a>
+            <a href="terms.html">Fogalmak</a>
+            <a href="updates.html">Frissítések</a>
+        </nav>
+    </header>
+    <section id="updates" style="background-image: url('https://wallpapercave.com/wp/wp8012808.jpg');" class="updates-section">
+        <h2>Frissítések</h2>
+        <p>Itt találhatók a szerver legújabb fejlesztései és frissítései. Kérjük, kövesd nyomon, hogy tájékozott maradj!</p>
+        
+        <div class="button-group">
+            <div class="button-container">
+                <button class="cta-button" onclick="toggleContent('ongoing-content')">Folyamatban lévő fejlesztések</button>
+                <div id="ongoing-content" class="hidden-content">
+                    <p>Itt találhatók a jelenleg folyamatban lévő fejlesztések leírásai.</p>
+                    <a href="https://example.com/ongoing" target="_blank">További információ</a>
+                    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe></p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="cta-button" onclick="toggleContent('completed-content')">Kész fejlesztések</button>
+                <div id="completed-content" class="hidden-content">
+                    <p>Itt találhatók a befejezett fejlesztések leírásai.</p>
+                    <a href="https://example.com/completed" target="_blank">További információ</a>
+                    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 RP Szerver. Minden jog fenntartva.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
